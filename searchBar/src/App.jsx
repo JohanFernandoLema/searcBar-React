@@ -13,8 +13,8 @@ function App() {
   return (
     <div className="App">
       <div className='search-bar-container'>
-        <SearchBar/>
-        <SearchResulsList/>
+        <SearchBar setResults={setResults}/>
+        <SearchResulsList results={results}/>
       </div>
     </div>
   )
